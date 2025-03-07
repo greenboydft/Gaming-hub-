@@ -1,31 +1,260 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gaming website</title>
-    <link rel="stylesheet" href="Style.css"/>
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <div class="head-left">
-          <img class="r1"src="photo.jpg" alt="" />
-          <br />
-          <button type="submit">product</button>
-          <div>
-            hello world
-          </div>
-        </div>
-        <div class="head-right">
-          <p><a href="#">NEXUS</a></p>
-          <p><a href="#">VAULT</a></p>
-          <p><a href="#">ABOUT</a></p>
-          <p><a href="#">SERVICES</a></p>
-          <p><a href="#">CONTANT</a></p>
-        </div>
-      </header>
+    <title>Gaming Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Gaming Hub</h1>
+
+        <nav>
+                      <!-- 🔍 Search Bar -->
+   <!-- <input type="text" id="searchBar" placeholder="🔍 Search games..." onkeyup="searchGames()">-->
+    
+        <!-- 📌 Category Filter
+    <select id="categorySelect" onchange="filterByCategory()">
+        <option value="all">All Categories</option>
+        <option value="racing">Racing</option>
+        <option value="puzzle">Puzzle</option>
+        <option value="shooting">Shooting</option>
+    </select> -->
+            <a  href="index.html">🏠home</a>
+            <a href="about.html">👤about us</a>
+          <!--  <button onclick="toggleVIP()">Go VIP (Remove Ads)</button>-->
+            <a href="contact.html">📞contact</a>
+        </nav>
+    </header>
+        <div class="ad-container">
+        <p>🔹 Your Ad Here 🔹</p>
+        <script>/* AdSense or other ad network code here */</script>
     </div>
-    <iframe src="https://ninja-muffin24.itch.io/funkin" frameborder="0"></iframe>
-  </body>
+    <h3 style="color: black;" >🎮 Select a Game to Play</h3>
+    <div class="game-container">
+        <div class="game-card" onclick="openGame('game.html?game=game1')">
+          <a href="https://www.onlinegames.io/games/2021/unity3/squid-race-simulator/index.html"></a>
+            <img src="squid.jpg" alt="Game 1"></a>
+        
+        </div>
+        <div class="game-card" onclick="openGame('game2.html?game=game2')">
+         <a href="game2.html?game=https://www.onlinegames.io/games/2022/unity/edys-car-simulator/game.html"><img src="Edys-Car-Simulator-Online-md.jpg" alt="Game 2"></a>   
+  
+        </div>
+        <!-- Add more games -->
+                <div class="game-card" onclick="openGame('game3.html?game=game3')">
+            <img src="Real-Flight-Simulator-2-md.jpg" alt="Game 3">
+            
+        </div>
+        
+        
+          <div class="game-card" onclick="openGame('game4.html?game=game4')">
+            <img src="Cat.jpg" alt="Game 4">
+            
+        </div>
+        
+          <div id="r1"class="game-card" onclick="openGame('game5.html?game=game5')">
+            <img src="F1-Drift.jpg" alt="Game 5">
+          
+        </div>
+        
+          <div id="r1"class="game-card" onclick="openGame('game6.html?game=game6')">
+            <img src="Spider.jpg" alt="Game 6">
+         
+        </div>
+        
+        
+          <div class="game-card" onclick="openGame('game7.html?game=game7')">
+            <img src="Dragon1.jpg" alt="Game 7">
+            
+        </div>
+        
+          <div class="game-card" onclick="openGame('game8.html?game=game8')">
+            <img src="Farmer.jpg" alt="Game 8">
+            
+        </div>
+        
+          <div class="game-card" onclick="openGame('game9.html?game=game9')">
+            <img src="Employee.jpg" alt="Game 9">
+            
+        </div>
+        
+        
+          <div class="game-card" onclick="openGame('game10.html?game=game10')">
+            <img src="Ball_walk.jpg" alt="Game 10">
+          
+        </div>
+        
+          <div class="game-card" onclick="openGame('game11.html?game=game11')">
+            <img src="Bike_vex.jpg" alt="Game 11">
+          
+        </div>
+        
+          <div class="game-card" onclick="openGame('game12.html?game=game12')">
+            <img src="Motor.jpg" alt="Game 12">
+          
+        </div>
+        
+          <div class="game-card" onclick="openGame('game13.html?game=game13')">
+            <img src="Spider_car.jpg" alt="Game 13">
+            
+        </div>
+        
+        
+          <div class="game-card" onclick="openGame('game14.html?game=game14')">
+            <img src="Joker.jpg" alt="Game 14">
+            
+        </div>
+        
+          <div class="game-card" onclick="openGame('game15.html?game=game15')">
+            <img src="Angry_bird_cibe.jpg" alt="Game 15">
+            
+        </div>
+        
+          <div class="game-card" onclick="openGame('game16.html?game=game16')">
+            <img src="Card war.jpg" alt="Game 16">
+            
+        </div>
+        
+          <div class="game-card" onclick="openGame('game17.html?game=game17')">
+            <img src="Battle_ship.jpg" alt="Game 17">
+            <h3>Game 17</h3>
+        </div>
+        
+          <div class="game-card" onclick="openGame('game18.html?game=game18')">
+            <img src="Pokemon .jpg" alt="Game 18">
+            
+        </div>
+        
+          <div class="game-card" onclick="openGame('game19.html?game=game19')">
+            <img src="Zombie vs robot.jpg" alt="Game 19">
+            
+        </div>
+        
+          <div class="game-card" onclick="openGame('game20.html?game=game20')">
+            <img src="Zombie_shoot.jpg" alt="Game 20">
+            
+        </div>
+        
+          <div class="game-card" onclick="openGame('game21.html?game=game21')">
+            <img src="Car traffic 1.jpg" alt="Game 21">
+            
+        </div>
+        
+          <div class="game-card" onclick="openGame('game22.html?game=game22')">
+            <img src="Geometry.jpg" alt="Game 22">
+            
+        </div>
+        
+          <div class="game-card" onclick="openGame('game23.html?game=game23')">
+            <img src="Funny_walk.jpg" alt="Game 23">
+            
+        </div>
+        
+          <div class="game-card" onclick="openGame('game24.html?game=game224')">
+            <img src="Zombie_fight.jpg" alt="Game 24">
+            
+        </div>
+        
+          <div class="game-card" onclick="openGame('game25.html?game=game25')">
+            <img src="2boy_gun.jpg" alt="Game 25">
+            
+        </div>
+        
+          <div class="game-card" onclick="openGame('game26.html?game=game26')">
+            <img src="Patta.jpg" alt="Game 26">
+            
+        </div>
+        
+          <div class="game-card" onclick="openGame('game27.html?game=game27')">
+            <img src="Cop_simulator.jpg" alt="Game 27">
+            
+        </div>
+        
+          <div class="game-card" onclick="openGame('game28.html?game=game28')">
+            <img src="Car racing 1.jpg" alt="Game 28">
+            
+        </div>
+        
+          <div class="game-card" onclick="openGame('game29.html?game=game29')">
+            <img src="Stick war.jpeg" alt="Game 29">
+            
+        </div>
+        
+          <div class="game-card" onclick="openGame('game30.html?game=game30')">
+            <img src="Fire_water.jpeg" alt="Game 30">
+            
+        </div>
+        
+          <div class="game-card" onclick="openGame('game31.html?game=game31')">
+            <img src="Real_bootball.jpeg" alt="Game 31">
+            
+        </div>
+        
+          <div class="game-card" onclick="openGame('game32.html?game=game32')">
+            <img src="Scope_shoot.jpg" alt="Game 32">
+            
+        </div>
+        
+          <div class="game-card" onclick="openGame('game33.html?game=game33')">
+            <img src="Carnage.jpg" alt="Game 33">
+            
+        </div>
+        
+          <div class="game-card" onclick="openGame('game34.html?game=game34')">
+            <img src="Gun_shoot.jpg" alt="Game 34">
+            
+        </div>
+        
+          <div class="game-card" onclick="openGame('game35.html?game=game35')">
+            <img src="Old_man.jpg" alt="Game 35">
+            
+        </div>
+        
+          <div class="game-card" onclick="openGame('game36.html?game=game36')">
+            <img src="Bgmi gun.jpeg" alt="Game 36">
+            
+        </div>
+        
+          <div class="game-card" onclick="openGame('game37.html?game=game37')">
+            <img src="Minecraft_bike.jpg" alt="Game 37">
+          
+        </div>
+        
+          <div class="game-card" onclick="openGame('game38.html?game=game38')">
+            <img src="Color block run.jpg" alt="Game 38">
+            
+     
+        
+   <!--     <div id="r5">
+        
+          <a href="index.html" id="r4">1</a>
+        
+        
+          <a href="index2.html" id="r3" >2</a>
+        
+          <a href="index3.html" id="r3" >3</a>
+       
+          <a href="index4.html" id="r3" >4</a>
+          
+        
+        </div> -->
+    </div>
+
+    <div id="adsense-container">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-XXXXXXXXXX"
+             data-ad-slot="YYYYYYYYYY"
+             data-ad-format="auto"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+
+</body>
 </html>
