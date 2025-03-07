@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-image: url("download.jpeg");
+    background-size: repite;
+}
+
+header {
+  text-align: center;
+    background-color: #111;
+    padding: 12px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+.back-btn { margin-top: 20px; padding: 10px 20px; background: #28a745; color: #fff; border: none; cursor: pointer; }
+
+nav a, nav button, {
+    position: fixed;
+    top: 500px;
+    color: white;
+    text-decoration: none;
+    margin:  20px;
+    padding: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+#searchBar {
+  position: absolute;
+  top: 40px;
+
+}
+
+categorySelect{
+  position: absolute;
+  top: 60px;
+  left: 10px;
+}
+
+.game-container {
+  text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.game-card {
+    width: 200px;
+    margin: 15px;
+    padding: 10px;
+    background: #333;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+hovor:r1{
+  background-color: red;
+}
+
+
+.game-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#adsense-container {
+    margin-top: 20px;
+    width: 350px;
+    height: 350px;
+}
+
+@media (max-width: 600px) {
+    .game-container {
+        flex-direction: column;
+    }
+}
+iframe{
+  width: 95%;
+  height: 640pxpx;
+}
+
+/*#r5{
+   position: absolute;
+    top: 9150px;
+    left: 100px;
+    color: white;
+    text-decoration: none;
+    margin:  15px;
+    padding: 3px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#r4 , #r3{
+  margin: 10px;
+  text-align: center;
+}*/
+
+
+
